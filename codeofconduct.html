@@ -1,137 +1,87 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset='UTF-8' />
-  <title>The Friendly Enby Tech Speakers List</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css'/>
-  <link rel='stylesheet' href='https://unpkg.com/tachyons@4.6.1/css/tachyons.min.css'/>
-  <link rel='stylesheet' href='main.css'/>
-</head>
-<body>
-  <header class='sans-serif'>
-    <div class='bg-black-80 pb5 pb6-m'>
-      <nav class='dt w-100 mw8 center'>
-        <div class='dtc v-mid tl pa3'>
-          <a class='f6 fw4 hover-white no-underline white-70 dib-ns pv2 ph3' href='/' >Home</a>
-          <a class='f6 fw4 hover-white no-underline white-70 dib-ns pv2 ph3' href='./codeofconduct' >Code of Conduct</a>
-          <a class='f6 fw4 hover-white no-underline white-70 dib-l pv2 ph3' href='https://github.com/enbytech/enbytech.github.io/issues/new'>Add Yourself</a>
-          <a class='f6 fw4 hover-white no-underline white-70 dib-l pv2 ph3' href='https://github.com/enbytech/enbytech.github.io' >GitHub</a>
-        </div>
-      </nav>
-      <div class='tc-l mt4 mt5-m ph3'>
-        <h1 class='f2 f1-l fw2 white-90 mb0 lh-title'>
-          <svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 128 128'><path fill='#FCC21B' d='M19.42 44.8c11.92-8.43 19.3-18.14 23.34-24.64 4.04 6.5 11.42 16.21 23.34 24.64-11.91 8.43-19.3 18.13-23.34 24.63-4.03-6.49-11.42-16.2-23.34-24.63zM96.2 81.84c-2.5-3.16-6.54-7.36-12.52-11.23 5.98-3.87 10.01-8.07 12.52-11.23 2.5 3.16 6.54 7.36 12.51 11.23-5.97 3.87-10 8.07-12.51 11.23zM63.71 110.4a47.039 47.039 0 0 0-9.56-10.3c4.38-3.49 7.48-7.25 9.56-10.31 2.08 3.05 5.18 6.82 9.56 10.31a47.039 47.039 0 0 0-9.56 10.3z'/><g fill='#F79329'><path d='M46.7 80.07c.08-.19 8.09-18.86 29.4-31.61l6.12-3.66-6.12-3.67C54.79 28.39 46.78 9.72 46.71 9.54L42.79.08l-3.96 9.45c-.08.19-8.09 18.86-29.4 31.61L3.3 44.8l6.12 3.66c21.31 12.75 29.32 31.42 29.4 31.61l3.92 9.44 3.96-9.44zM19.42 44.8c11.92-8.43 19.3-18.14 23.34-24.64 4.04 6.5 11.42 16.21 23.34 24.64-11.91 8.43-19.3 18.13-23.34 24.63-4.03-6.49-11.42-16.2-23.34-24.63zM117.92 67.26c-13.32-6.58-18.34-16.13-18.38-16.21l-3.31-6.56-3.36 6.55c-.05.09-5.07 9.64-18.4 16.23l-6.78 3.35 6.78 3.35c13.29 6.57 18.32 16.08 18.39 16.23l3.3 6.55 3.36-6.55c.05-.09 5.07-9.64 18.39-16.23l6.78-3.35-6.77-3.36zM96.2 81.84c-2.5-3.16-6.54-7.36-12.52-11.23 5.98-3.87 10.01-8.07 12.52-11.23 2.5 3.16 6.54 7.36 12.51 11.23-5.97 3.87-10 8.07-12.51 11.23zM67.18 80.82l-3.43-8.54-3.49 8.53c-.04.09-4.03 9.61-14.54 16.11l-5.14 3.18 5.14 3.17c10.46 6.47 14.46 15.92 14.54 16.11l3.43 8.53 3.49-8.53c.04-.1 4.02-9.61 14.54-16.11l5.14-3.17-5.14-3.18c-10.52-6.5-14.51-16.01-14.54-16.1zm-3.47 29.58a47.039 47.039 0 0 0-9.56-10.3c4.38-3.49 7.48-7.25 9.56-10.31 2.08 3.05 5.18 6.82 9.56 10.31a47.039 47.039 0 0 0-9.56 10.3z'/></g></svg>
-          Friendly Enby Speakers in Tech
-          <svg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 128 128'><path fill='#FCC21B' d='M19.42 44.8c11.92-8.43 19.3-18.14 23.34-24.64 4.04 6.5 11.42 16.21 23.34 24.64-11.91 8.43-19.3 18.13-23.34 24.63-4.03-6.49-11.42-16.2-23.34-24.63zM96.2 81.84c-2.5-3.16-6.54-7.36-12.52-11.23 5.98-3.87 10.01-8.07 12.52-11.23 2.5 3.16 6.54 7.36 12.51 11.23-5.97 3.87-10 8.07-12.51 11.23zM63.71 110.4a47.039 47.039 0 0 0-9.56-10.3c4.38-3.49 7.48-7.25 9.56-10.31 2.08 3.05 5.18 6.82 9.56 10.31a47.039 47.039 0 0 0-9.56 10.3z'/><g fill='#F79329'><path d='M46.7 80.07c.08-.19 8.09-18.86 29.4-31.61l6.12-3.66-6.12-3.67C54.79 28.39 46.78 9.72 46.71 9.54L42.79.08l-3.96 9.45c-.08.19-8.09 18.86-29.4 31.61L3.3 44.8l6.12 3.66c21.31 12.75 29.32 31.42 29.4 31.61l3.92 9.44 3.96-9.44zM19.42 44.8c11.92-8.43 19.3-18.14 23.34-24.64 4.04 6.5 11.42 16.21 23.34 24.64-11.91 8.43-19.3 18.13-23.34 24.63-4.03-6.49-11.42-16.2-23.34-24.63zM117.92 67.26c-13.32-6.58-18.34-16.13-18.38-16.21l-3.31-6.56-3.36 6.55c-.05.09-5.07 9.64-18.4 16.23l-6.78 3.35 6.78 3.35c13.29 6.57 18.32 16.08 18.39 16.23l3.3 6.55 3.36-6.55c.05-.09 5.07-9.64 18.39-16.23l6.78-3.35-6.77-3.36zM96.2 81.84c-2.5-3.16-6.54-7.36-12.52-11.23 5.98-3.87 10.01-8.07 12.52-11.23 2.5 3.16 6.54 7.36 12.51 11.23-5.97 3.87-10 8.07-12.51 11.23zM67.18 80.82l-3.43-8.54-3.49 8.53c-.04.09-4.03 9.61-14.54 16.11l-5.14 3.18 5.14 3.17c10.46 6.47 14.46 15.92 14.54 16.11l3.43 8.53 3.49-8.53c.04-.1 4.02-9.61 14.54-16.11l5.14-3.17-5.14-3.18c-10.52-6.5-14.51-16.01-14.54-16.1zm-3.47 29.58a47.039 47.039 0 0 0-9.56-10.3c4.38-3.49 7.48-7.25 9.56-10.31 2.08 3.05 5.18 6.82 9.56 10.31a47.039 47.039 0 0 0-9.56 10.3z'/></g></svg>
-        </h1>
-        <h2 class='fw1 f3 white-80 mt3 mb4'>A list of non-binary speakers who do talks on technology</h2>
-        <p id='js-count' class='f4 center white-90'></p>
-      </div>
-    </div>
-  </header>
+---
+layout: default
+---
+<main class='cf w-100 mw7 center lh-copy'>
+  <h1>Contributor Covenant Code of Conduct</h1>
+  <h2>Our Pledge</h2>
 
-  <main class='cf w-100 mw7 center lh-copy'>
-    <h1>Contributor Covenant Code of Conduct</h1>
-    <h2>Our Pledge</h2>
+  <p>In the interest of fostering an open and welcoming environment, we as
+  contributors and maintainers pledge to making participation in our project and
+  our community a harassment-free experience for everyone, regardless of age, body
+  size, disability, ethnicity, gender identity and expression, level of experience,
+  nationality, personal appearance, race, religion, or sexual identity and
+  orientation.</p>
 
-    <p>In the interest of fostering an open and welcoming environment, we as
-    contributors and maintainers pledge to making participation in our project and
-    our community a harassment-free experience for everyone, regardless of age, body
-    size, disability, ethnicity, gender identity and expression, level of experience,
-    nationality, personal appearance, race, religion, or sexual identity and
-    orientation.</p>
+  <h2>Our Standards</h2>
 
-    <h2>Our Standards</h2>
+  <p>Examples of behavior that contributes to creating a positive environment
+  include:</p>
 
-    <p>Examples of behavior that contributes to creating a positive environment
-    include:</p>
+  <ul>
+    <li>Using welcoming and inclusive language</li>
+    <li>Being respectful of differing viewpoints and experiences</li>
+    <li>Gracefully accepting constructive criticism</li>
+    <li>Focusing on what is best for the community</li>
+    <li>Showing empathy towards other community members</li>
+  </ul>
 
-    <ul>
-      <li>Using welcoming and inclusive language</li>
-      <li>Being respectful of differing viewpoints and experiences</li>
-      <li>Gracefully accepting constructive criticism</li>
-      <li>Focusing on what is best for the community</li>
-      <li>Showing empathy towards other community members</li>
-    </ul>
+  <p>Examples of unacceptable behavior by participants include:</p>
 
-    <p>Examples of unacceptable behavior by participants include:</p>
+  <ul>
+    <li>The use of sexualized language or imagery and unwelcome sexual attention or advances</li>
+    <li>Trolling, insulting/derogatory comments, and personal or political attacks</li>
+    <li>Public or private harassment</li>
+    <li>Publishing others' private information, such as a physical or electronic address, without explicit permission</li>
+    <li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
+  </ul>
 
-    <ul>
-      <li>The use of sexualized language or imagery and unwelcome sexual attention or advances</li>
-      <li>Trolling, insulting/derogatory comments, and personal or political attacks</li>
-      <li>Public or private harassment</li>
-      <li>Publishing others' private information, such as a physical or electronic address, without explicit permission</li>
-      <li>Other conduct which could reasonably be considered inappropriate in a professional setting</li>
-    </ul>
+  <h2>Our Responsibilities</h2>
 
-    <h2>Our Responsibilities</h2>
+  <p>Project maintainers are responsible for clarifying the standards of acceptable
+  behavior and are expected to take appropriate and fair corrective action in
+  response to any instances of unacceptable behavior.</p>
 
-    <p>Project maintainers are responsible for clarifying the standards of acceptable
-    behavior and are expected to take appropriate and fair corrective action in
-    response to any instances of unacceptable behavior.</p>
+  <p>Project maintainers have the right and responsibility to remove, edit, or
+  reject comments, commits, code, wiki edits, issues, and other contributions
+  that are not aligned to this Code of Conduct, or to ban temporarily or
+  permanently any contributor for other behaviors that they deem inappropriate,
+  threatening, offensive, or harmful.</p>
 
-    <p>Project maintainers have the right and responsibility to remove, edit, or
-    reject comments, commits, code, wiki edits, issues, and other contributions
-    that are not aligned to this Code of Conduct, or to ban temporarily or
-    permanently any contributor for other behaviors that they deem inappropriate,
-    threatening, offensive, or harmful.</p>
+  <h2>Scope</h2>
 
-    <h2>Scope</h2>
+  <p>This Code of Conduct applies both within project spaces and in public spaces
+  when an individual is representing the project or its community. Examples of
+  representing a project or community include using an official project e-mail
+  address, posting via an official social media account, or acting as an appointed
+  representative at an online or offline event. Representation of a project may be
+  further defined and clarified by project maintainers.</p>
 
-    <p>This Code of Conduct applies both within project spaces and in public spaces
-    when an individual is representing the project or its community. Examples of
-    representing a project or community include using an official project e-mail
-    address, posting via an official social media account, or acting as an appointed
-    representative at an online or offline event. Representation of a project may be
-    further defined and clarified by project maintainers.</p>
+  <h2>Enforcement</h2>
 
-    <h2>Enforcement</h2>
+  <p>Instances of abusive, harassing, or otherwise unacceptable behavior may be
+  reported by contacting the project team at
+  <a href='mailto:charlottelaspencer@gmail.com' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>
+    charlottelaspencer@gmail.com
+  </a>.
+  All complaints will be reviewed and investigated and will result in a response that
+  is deemed necessary and appropriate to the circumstances. The project team is
+  obligated to maintain confidentiality with regard to the reporter of an incident.
+  Further details of specific enforcement policies may be posted separately.</p>
 
-    <p>Instances of abusive, harassing, or otherwise unacceptable behavior may be
-    reported by contacting the project team at
-    <a href='mailto:charlottelaspencer@gmail.com' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>
-      charlottelaspencer@gmail.com
+  <p>Project maintainers who do not follow or enforce the Code of Conduct in good
+  faith may face temporary or permanent repercussions as determined by other
+  members of the project's leadership.</p>
+
+  <h2>Attribution</h2>
+
+  <p>
+    This Code of Conduct is adapted from the
+    <a href='http://contributor-covenant.org' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>
+      Contributor Covenant
+    </a>, version 1.4,
+    available at
+    <a href='http://contributor-covenant.org/version/1/4/' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>
+      http://contributor-covenant.org/version/1/4
     </a>.
-    All complaints will be reviewed and investigated and will result in a response that
-    is deemed necessary and appropriate to the circumstances. The project team is
-    obligated to maintain confidentiality with regard to the reporter of an incident.
-    Further details of specific enforcement policies may be posted separately.</p>
-
-    <p>Project maintainers who do not follow or enforce the Code of Conduct in good
-    faith may face temporary or permanent repercussions as determined by other
-    members of the project's leadership.</p>
-
-    <h2>Attribution</h2>
-
-    <p>
-      This Code of Conduct is adapted from the
-      <a href='http://contributor-covenant.org' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>
-        Contributor Covenant
-      </a>, version 1.4,
-      available at
-      <a href='http://contributor-covenant.org/version/1/4/' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>
-        http://contributor-covenant.org/version/1/4
-      </a>.
-    </p>
-  </main>
-
-  <footer class='pv4 ph3 ph5-m ph6-l mid-gray'>
-    <small class='f6 db tc'>Made by <b class='ttu'><a href='https://twitter.com/charlotteis' class='bg-animate bg-white hover-bg-light-blue black'>@charlotteis</a></b>.</small>
-    <div class='tc mt3'>
-      <a href='./codeofconduct' title='Code of Conduct' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>Code of Conduct</a>
-      <a href='https://github.com/enbytech/enbytech.github.io' title='Terms' class='f6 dib ph2 bg-animate bg-white hover-bg-light-blue black'>GitHub</a>
-    </div>
-  </footer>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-89280800-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-</body>
-</html>
+  </p>
+</main>

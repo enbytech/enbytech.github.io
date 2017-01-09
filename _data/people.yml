@@ -1,0 +1,192 @@
+- name: Charlotte Spencer
+  link: https://twitter.com/charlotteis
+  location: London, UK
+  topics:
+    - Open Source
+    - Community
+
+- name: Chad Gowler
+  link: https://twitter.com/kitation
+
+- name: Kat Marchán
+  link: https://twitter.com/maybekatz
+
+- name: Danielle Tomlinson
+  link: https://twitter.com/dantoml
+  location: Berlin, DE
+  topics:
+    - Open Source
+    - CocoaPods
+    - CI
+    - Clojure
+    - Ruby
+    - Swift
+
+- name: Grace Au
+  link: https://twitter.com/qr_ce
+
+- name: Daria Phoebe
+  link: https://twitter.com/shadow
+
+- name: Eric Davies
+  link: https://twitter.com/iamed2
+
+- name: Lex Roberts
+  link: https://twitter.com/lexicobob
+
+- name: Angelina Fabbro
+  link: https://twitter.com/hopefulcyborg
+
+- name: Aria Stewart
+  link: https://twitter.com/aredridel
+
+- name: Emily Gorcenski
+  link: https://twitter.com/EmilyGorcenski
+
+- name: Nat Tarnoff
+  link: https://twitter.com/nattarnoff
+
+- name: Leah Velleman
+  link: https://twitter.com/leahvelleman
+  location: Boston, MA
+  topics:
+    - Documentation
+    - Content Strategy
+
+- name: Charlie Allen
+  link: https://twitter.com/spangle_cat
+
+- name: Jamie Chung
+  link: https://twitter.com/jamieshark_
+
+- name: Jamey Hampton
+  link: https://twitter.com/jameybash
+
+- name: Mark Funk
+  link: https://twitter.com/mgfunk
+
+- name: Emma Gras
+  link: https://twitter.com/emma_gras
+
+- name: Alex Dytrych
+  link: https://twitter.com/SomeHats
+
+- name: Willow Puge
+  link: https://twitter.com/istx25
+
+- name: Kendra Albert
+  link: https://twitter.com/KendraSerra
+
+- name: Eden Rohatensky
+  link: https://twitter.com/edenthecat
+
+- name: Nora Reed
+  link: https://twitter.com/NoraReed
+
+- name: CJ Joulain
+  link: https://twitter.com/cj_floats
+
+- name: JC Holder
+  link: https://twitter.com/thirdtruck
+
+- name: Creatrix Tiara
+  link: https://twitter.com/creatrixtiara
+
+- name: Ivana McConnell
+  link: https://twitter.com/IvanaMcConnell
+
+- name: Galacia Barton
+  link: https://twitter.com/GalaciaBarton
+
+- name: Kit Stubbs
+  link: https://twitter.com/vortacist
+
+- name: e
+  link: https://twitter.com/star_brow
+
+- name: B Cordelia Yu
+  link: https://twitter.com/thebestsophist
+
+- name: Amorphous
+  link: https://twitter.com/dmliao
+
+- name: Rae Knowler
+  link: https://twitter.com/RaeKnowler
+
+- name: Autumn G. Van Kirk
+  link: https://twitter.com/Taigitsune
+
+- name: Yuki Izumi
+  link: https://twitter.com/kivikakk
+
+- name: Anne Petersen
+  link: https://twitter.com/apetersen
+
+- name: Florída Ivanne
+  link: https://twitter.com/floriidaaa
+
+- name: Rowan Vasquez
+  link: https://twitter.com/rowanrv
+
+- name: Kai Dalgleish
+  link: https://twitter.com/Kaidalgleish
+
+- name: Dax Nikki Murray
+  link: https://twitter.com/NikkiLizMurray
+
+- name: Damien Senger
+  link: https://twitter.com/iamhiwelo
+  location: Amsterdam, Netherlands
+  topics:
+    - Inclusive web
+    - Accessibility
+    - Web Performance
+    - Typography
+
+- name: Savanni D'Gerinel
+  link: https://twitter.com/savannidgerine
+  location: Massachusetts, United States
+  topics:
+    - Gender
+    - Haskell
+    - Linux UX
+    - Personal Data Tracking
+
+- name: Igor Galić
+  link: https://twitter.com/hirojin
+  topics:
+    - Dev/Ops
+    - Open Source
+
+- name: Melody Mustaine (Arayi)
+  link: https://twitter.com/arayi
+
+- name: Michiel Trimpe
+  link: https://twitter.com/mtrimpe
+
+- name: Madison Scott-Clary
+  link: http://drab-makyo.com
+
+- name: Kieryn Darkwater
+  link: https://twitter.com/mxdarkwater
+
+- name: Katja Bak
+  link: https://medium.com/@katja_ghost
+
+- name: Cory 'cbeck' Kolbeck
+  link: https://twitter.com/cbeckpdx
+
+- name: uve
+  link: https://twitter.com/uveavanto
+
+- name: Alon Altman
+  link: https://twitter.com/epsalon
+
+- name: Kate Miháliková
+  link: https://twitter.com/KateMihalikova
+  location: Prague
+  topics:
+    - Intro to HTML/CSS
+    - JavaScript
+    - Angular
+    - Ionic
