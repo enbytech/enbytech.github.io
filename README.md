@@ -1,4 +1,4 @@
-# :sparkles: The friendly enby tech speakers list :sparkles:
+# :sparkles: The enby tech speakers list :sparkles:
 
 A list of speakers who are [non-binary], and who do talks about technology.
 
